@@ -1,0 +1,43 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "API de Produtos e Clientes",
+      "version": "1.0.0",
+      "description": "Documentação da API para gerenciamento de produtos e clientes"
+    },
+    "paths": {
+      "/produtos": {
+        "get": {
+          "summary": "Lista todos os produtos",
+          "responses": {
+            "200": {
+              "description": "Lista de produtos retornada com sucesso"
+            }
+          }
+        }
+      },
+      "/clientes": {
+        "get": {
+          "summary": "Lista todos os clientes",
+          "responses": {
+            "200": {
+              "description": "Lista de clientes retornada com sucesso"
+            }
+          }
+        }
+      },
+      "/pedidos": {
+        "get": {
+          "summary": "Lista todos os pedidos",
+          "responses": {
+            "200": {
+              "description": "Lista de pedidos retornada com sucesso"
+            }
+          }
+        }
+      }
+
+
+    }
+  }
+  
